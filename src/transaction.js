@@ -1,7 +1,7 @@
 import map from 'lodash/map';
 import each from 'lodash/each';
 import isString from 'lodash/isString';
-import crypto from 'crypto';
+import crypto from 'crypto-js';
 import { xdr, hash } from './index';
 
 import { StrKey } from './strkey';
